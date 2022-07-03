@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #696969;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+.help-box{
+    position: relative;
+    height: 260px;
+    width: 270px;
+    margin: 30px 60px;
+    background-color: #000;
+    border-radius: 30px;
+}
+.help-box:hover{
+    box-shadow: -30px 30px 30px rgba(0,0, 0, 0.5);
+}
+.help{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    background-color: #ffff;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 50, 025) 0px 50px 100px -30px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 0px 0px inset;
+    
+}
+.help:hover{
+     transform: translate(40px ,-40px);
+}
+.shape{
+    width: 80%;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #228B22;
+}
+.help-box:nth-child(1) .help .shape{
+    background-color: #8A2BE2;
+}
+.help-box:nth-child(2) .help .shape{
+    background-color:#DEB887;
+}
+.help-box:nth-child(3) .help .shape{
+    background-color: #B8860B;
+}
+.help-box:nth-child(4) .help .shape{
+    background-color: #2F4F4F;
+}
+.help-box:nth-child(5) .help .shape{
+    background-color: #FFD700;
+}
+.help-box:nth-child(6) .help .shape{
+    background-color: #4B0082;
+}
+
+.help-box:nth-child(1) {
+    background-color: #8A2BE2;
+}
+.help-box:nth-child(2) {
+    background-color:#DEB887;
+}
+.help-box:nth-child(3) {
+    background-color: #B8860B;
+}
+.help-box:nth-child(4) {
+    background-color: #2F4F4F;
+}
+.help-box:nth-child(5) {
+    background-color: #FFD700;
+}
+.help-box:nth-child(6) {
+    background-color: #4B0082;
+}
+
+
+h4{
+    font-size: 1.5em;
+    padding: 20px;
+    color: #90EE90;
+}
+p{
+    color: #808080;
+    align-items: justify;
+}
+.icon{
+    color: #6B8E23;
+    font-size: 2em;
+    padding: 20px;
+}

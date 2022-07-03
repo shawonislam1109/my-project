@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+     background-color: #006400;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.card-warpper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+}
+.card-box{
+    position: relative;
+    height: 260px;
+    width: 270px;
+    margin: 30px 60px;
+    background-color: #000;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.card-box:hover{
+    box-shadow: -30px 30px 30px rgba(0,0, 0, 0.5);
+}
+.card{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #2F4F4F;
+    border-radius: 30px;
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 50, 025) 0px 50px 100px -30px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 0px 0px inset;
+    
+}
+.card:hover{
+    transform: translate(40px,-40px);
+}
+.shape{
+    width: 70%;
+    height: 30px;
+    border-radius: 30px;
+    background: #000;
+}
+.card-box:nth-child(1){
+    background-color: #4B0082;
+}
+.card-box:nth-child(2){
+    background-color: #66CDAA;
+}
+.card-box:nth-child(3){
+    background-color: #FF4500;
+}
+.card-box:nth-child(4){
+    background-color: #F4A460;
+}
+.card-box:nth-child(5){
+    background-color: #D2B48C;
+}
+.card-box:nth-child(6) {
+    background-color:  #A0522D;
+}
+.card-box:nth-child(1) .card .shape{
+    background-color: #4B0082;
+}
+.card-box:nth-child(2) .card .shape{
+    background-color: #66CDAA;
+}
+.card-box:nth-child(3) .card .shape{
+    background-color: #FF4500;
+}
+.card-box:nth-child(4) .card .shape{
+    background-color: #F4A460;
+}
+.card-box:nth-child(5) .card .shape{
+    background-color: #D2B48C;
+}
+.card-box:nth-child(6) .card .shape {
+    background-color:  #A0522D;
+}
+
+h4{
+    font-size: 1.2em;
+    padding: 10px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    padding:10px;
+    
+
+}
+.icon{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
